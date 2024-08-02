@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Grain Hungry';
+    src: url('../fonts/GrainHungry-Regular.woff2') format('woff2'),
+         url('../fonts/GrainHungry-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Default font for the rest of the page */
+}
+
+body {
+    background-image: url("../img/DP_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    font-family: 'Calistoga', sans-serif; /
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Grain Hungry', 'Calistoga', sans-serif; /* Use Grain Hungry for navbar-brand */
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333; /* Default color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Animation for color and transform */
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Change color on hover */
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+.card {
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

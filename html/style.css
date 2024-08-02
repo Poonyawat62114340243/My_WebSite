@@ -1,0 +1,217 @@
+/* Font variants */
+.chakra-petch-light {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 300;
+}
+
+.chakra-petch-regular {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+}
+
+.chakra-petch-medium {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 500;
+}
+
+.chakra-petch-semibold {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.chakra-petch-bold {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+}
+
+.chakra-petch-light-italic {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* General styles */
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  line-height: 1.6;
+  color: #343a40; /* Dark text color */
+  background-image: url('https://example.com/your-image.jpg'); /* Replace with your background image URL */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center center; /* Center the background image */
+  z-index: 0; /* Set the z-index to 0 */
+}
+
+.container {
+  max-width: 1140px; /* Maximum width for the content */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.table {
+  font-family: 'Chakra Petch', sans-serif;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+.table th, .table td {
+  border: none; /* Remove borders */
+  padding: 0.75rem; /* Padding around cells */
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #212529; /* Darker background for headers */
+  text-align: center; /* Center-align header text */
+}
+
+.table td {
+  text-align: center; /* Center-align cell content */
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px; /* Padding inside the button */
+  margin: 5px; /* Margin around the button */
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #1c242c; /* Hover state background color */
+}
+
+.btn-update {
+  background-color: #09f340; /* Green button */
+}
+
+.btn-delete {
+  background-color: #dc3545; /* Red button */
+}
+
+
+/* Form inputs */
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive Design */
+@media (min-width: 992px) {
+  .container {
+    padding: 40px; /* Increase padding for larger screens */
+  }
+
+  h1, h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 30px; /* Adjust padding for tablets */
+  }
+
+  h1, h2, h3 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 20px; /* Reduce padding for mobile */
+  }
+
+  h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #343a40; /* Dark text color */
+  padding: 10px 0; /* Reduced padding top and bottom */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift */
+}
+
+.footer p {
+  margin-bottom: 0; /* Remove default bottom margin */
+  font-size: 12px; /* Reduced font size */
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 8px 0; /* Further reduced padding for smaller screens */
+  }
+}
+
+
+
+
+
+

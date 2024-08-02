@@ -1,0 +1,31 @@
+/* hover_card.css */
+
+.card {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+.card-body {
+    padding: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: rgba(0, 123, 255, 0.1);
+}
